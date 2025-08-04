@@ -1,0 +1,47 @@
+@use 'variables' as *;
+
+@mixin ax-card {
+    background-color: var(--ax-white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--ax-gray-1-plus);
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        font-size: 1.25rem;
+        color: var(--ax-smokey-blue-2);
+    }
+
+    &__actions {
+        display: flex;
+        gap: 0.75rem;
+    }
+
+    &__action {
+        text-decoration: none;
+        color: var(--ax-blue-primary);
+        font-weight: 500;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        // A simple style for the delete button
+        &:last-child {
+            color: var(--ax-red-primary);
+        }
+    }
+
+    &__content {
+        line-height: 1.9;
+    }
+}

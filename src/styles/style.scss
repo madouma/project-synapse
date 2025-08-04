@@ -1,0 +1,85 @@
+@use 'settings' as *;
+
+body {
+    background-color: var(--ax-gray-1);
+    margin: 1rem 2rem;
+    color: var(--ax-gray-3);
+}
+
+.montserrat-body {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h3,
+p {
+    margin: 0 !important;
+    font-weight: 400;
+}
+
+.title {
+    margin-bottom: 1.5rem;
+    color: var(--ax-smokey-blue);
+}
+
+.page {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__content {
+        margin: 1rem;
+    }
+}
+
+.block-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    @include ax-card;
+    width: 342px;
+    min-width: 330px;
+    max-width: 500px;
+    margin-bottom: 1rem;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: var(--ax-orange-primary);
+    border-radius: 50%;
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--ax-blue-primary);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
