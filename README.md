@@ -2,7 +2,7 @@
 
 A modern, client-side CRUD application for managing a list of employees, built with React. This project serves as a demonstration of core front-end development skills.
 
-**Live Demo URL:** [Link to your deployed app will go here]
+**Live Demo URL:** [Project Synapse](https://project-synapse-gray.vercel.app)
 
 ---
 
