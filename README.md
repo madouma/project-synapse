@@ -1,12 +1,53 @@
-# React + Vite
+# Project Synapse - Employee Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, client-side CRUD application for managing a list of employees, built with React. This project serves as a demonstration of core front-end development skills.
 
-Currently, two official plugins are available:
+**Live Demo URL:** [Link to your deployed app will go here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+![Project Synapse Screenshot](assets/project-synapse__dashboard.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<!-- _(Note: To make this image work, you can create an `assets` folder in your project, put a screenshot inside, and link to it like `assets/screenshot.png`)_ -->
+
+## About This Project
+
+Project Synapse was built as part of a guided learning process to master the fundamentals of modern React development. It's a single-page application (SPA) that allows users to perform Create, Read, Update, and Delete (CRUD) operations on an employee roster, all managed on the client-side. The goal was to build a clean, scalable, and professional front-end application from the ground up.
+
+This project demonstrates proficiency in:
+
+-   Building functional components with React.
+-   Managing complex application state with the Context API.
+-   Client-side routing with React Router.
+-   Creating a professional and maintainable SCSS architecture.
+-   Implementing version control with Git and GitHub.
+
+## Tech Stack
+
+-   **Framework:** React 18
+-   **Build Tool:** Vite
+-   **Routing:** React Router DOM v6
+-   **State Management:** React Context API + `useState` hook
+-   **Styling:** SCSS with BEM methodology
+-   **Deployment:** Vercel
+
+## Getting Started
+
+To run this project locally:
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/madouma/project-synapse.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd project-synapse
+    ```
+3.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the development server:
+    ```bash
+    npm run dev
+    ```
