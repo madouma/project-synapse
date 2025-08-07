@@ -12,7 +12,7 @@ A modern, client-side CRUD application for managing a list of employees, built w
 
 ## About This Project
 
-Project Synapse was built as part of a guided learning process to master the fundamentals of modern React development. It's a single-page application (SPA) that allows users to perform Create, Read, Update, and Delete (CRUD) operations on an employee roster, all managed on the client-side. The goal was to build a clean, scalable, and professional front-end application from the ground up.
+Project Synapse was built to showcase mastery of modern React development fundamentals. It's a single-page application (SPA) that allows users to perform Create, Read, Update, and Delete (CRUD) operations on an employee roster, all managed on the client-side. The goal was to build a clean, scalable, and professional front-end application from the ground up.
 
 This project demonstrates proficiency in:
 
